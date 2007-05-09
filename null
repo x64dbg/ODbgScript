@@ -1,0 +1,3 @@
+ODbgScript.ncb: Permission denied
+	zip warning: could not open for reading: ODbgScript.ncb
+	zip warning: will just copy entry over: ODbgScript.ncb
