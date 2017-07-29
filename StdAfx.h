@@ -4,6 +4,9 @@
 //
 #pragma once
 
+#define _WIN32_WINNT 0x0502
+#define WINVER 0x0502
+
 //remove debug build warnings (debug names too long)
 #ifdef _DEBUG
 #pragma warning (disable : 4786)

@@ -3820,7 +3820,7 @@ bool OllyLang::DoLM(string args)
         fin.close();
 
 		if (sum) {
-	        variables["$RESULT"] = sum;
+	        variables["$RESULT"] = (ulong)sum;
             return true;
         }
         else

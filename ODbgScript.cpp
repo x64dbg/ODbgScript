@@ -2,7 +2,7 @@
 //
 //#define STRICT
 
-#define _CHAR_UNSIGNED 1 // huhu
+//#define _CHAR_UNSIGNED 1 // huhu
 
 #include "StdAfx.h"
 

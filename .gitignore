@@ -1,0 +1,8 @@
+_UpgradeReport_Files/
+ipch/
+*.opensdf
+*.sdf
+*.user
+Release/
+Debug/
+UpgradeLog.XML
