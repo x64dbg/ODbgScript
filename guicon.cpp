@@ -1,9 +1,7 @@
-#ifdef _DEBUG
+#include "StdAfx.h"
 
 #include <io.h>		//_open_osfhandle
 #include <fcntl.h>	//_O_TEXT
-
-#include "StdAfx.h"
 
 #ifndef _USE_OLD_IOSTREAMS
 using namespace std;
@@ -54,6 +52,3 @@ void RedirectIOToConsole()
 	// point to console as well
 	ios::sync_with_stdio();
 }
-#endif
-//End of File
-

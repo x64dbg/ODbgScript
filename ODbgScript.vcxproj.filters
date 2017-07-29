@@ -24,9 +24,6 @@
     <ClCompile Include="HelperFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IniReader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ODbgScript.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -99,9 +96,6 @@
       <Filter>Header Files</Filter>
     </CustomBuildStep>
     <CustomBuildStep Include="HelperFunctions.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="IniReader.h">
       <Filter>Header Files</Filter>
     </CustomBuildStep>
     <CustomBuildStep Include="Progress.h">

@@ -1,8 +1,7 @@
-_UpgradeReport_Files/
+Release/
+Debug/
 ipch/
 *.opensdf
 *.sdf
 *.user
-Release/
-Debug/
-UpgradeLog.XML
+*.suo

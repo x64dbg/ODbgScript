@@ -32,21 +32,15 @@ using namespace std;
 #include <algorithm>
 #include <set>
 
-
-#include <afx.h>
-//#include <windows.h>
+#include <windows.h>
 #include <Commdlg.h>
-//#include <Winuser.h>
 #include <shlwapi.h>
 #include <shellapi.h>
-
-
 
 #include "var.h"
 #include "plugin.h"
 
 #include "HelperFunctions.h"
-#include "IniReader.h"
 
 #include "OllyLang.h"
 #include "ODbgScript.h"
