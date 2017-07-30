@@ -65,6 +65,36 @@
     <ClInclude Include="Plugin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="guicon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Progress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="var.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="log.ico">
@@ -72,12 +102,6 @@
     </None>
     <None Include="script.ico">
       <Filter>Resource Files</Filter>
-    </None>
-    <None Include="copy.bat">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="copydbg.bat">
-      <Filter>Source Files</Filter>
     </None>
     <None Include="doc\ODbgScript.txt" />
     <None Include="doc\Plugins.chm" />
@@ -87,40 +111,5 @@
     <ResourceCompile Include="ODbgScript.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuildStep Include="dumper.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="guicon.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="HelperFunctions.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="Progress.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="StdAfx.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="version.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="resource.h">
-      <Filter>Resource Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="mru.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="var.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="LogWindows.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
-    <CustomBuildStep Include="Search.h">
-      <Filter>Header Files</Filter>
-    </CustomBuildStep>
   </ItemGroup>
 </Project>
